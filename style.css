@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.soft-blue-text {
+    color: ;
+}
+
+/* Main Mobile */
+
+@media screen and (max-width: 830px) {
+    .card-container {
+        padding: 24px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 18px;
+        margin: 62px 24px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .image-detail {
+        padding-left: 24px;
+        padding-right: 24px;
+        color: white;
+    }
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: rgb(48,59,90) ;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    padding: 0px 16px;
+}
+
+footer a {
+    color:  rgb(48,59,90);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer .div-line {
+    padding: 0px 8px;
+}
